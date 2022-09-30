@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+<h2 [style]="titleStyle">this is home page</h2>
+
+<button (click)="show()">Show</button>
+<button (click)="hidden()">Hidden</button>
+
+<p> Name : {{ profil.firstName }} {{ profil.lastName }}</p>
+<p>Adresse : {{ profil.country }}</p>
+
+ <img src={{linkImage}} alt="">
+<img [src]="linkImage" alt="">
+
+<h2>{{ number}}</h2>
+
+<button (click)="inc()">Increment</button>
+<button (click)="dec()">Decrement</button>
+
+<app-footer></app-footer>
